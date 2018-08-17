@@ -1,0 +1,8 @@
+1. nodemon     => sets up a server that listens to any changes and updates them in realtime
+2. crypto-js   => for the purpose of SHA256 encryption
+3. jest        => for testing (in package.json with --watchAll attribute it works in realtime to nodemon but for testing)
+4. express     => for developing the api
+5. body-parser => (middleware) acts as an intermediate processor for converting post requests into json
+6. ws          => web socket module for the creation of peer-to-peer network
+7. elliptic    => to implement the wallet's key configuration usin elliptic-curve cryptography
+8. uuid        => (universally unique identifer) to generate unique id for transactions
