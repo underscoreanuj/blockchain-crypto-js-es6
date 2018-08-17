@@ -64,19 +64,26 @@ Now,
 ## Running the tests
 
   Once up and running you can use Postman to send GET and POST requests as follows :-
-  1.  GET - localhost:3002/public-key       (gets the public key of 3002 which serves as its wallet address)
-      result -> 
+  1.  GET - localhost:3002/public-key       
+  	(gets the public key of 3002 which serves as its wallet address)
+      	*result -> 
+```	
       {
         "public_key": "0421f258e4a366028e1500fe972555f269b61d261fa71e96f554412768fa497a42b6e77dcf67b240e9c3da426129c44b20ce6785787e4529856270b7d42d9ced56"
       }
-  2.  POST -  localhost:3002/transact       (with the given transaction amount send it to 3002's wallet)
-       with a raw json as follows
+```      
+  2.  POST -  localhost:3002/transact       
+  	(with the given transaction amount send it to 3002's wallet)
+       *with a raw json as follows
+```      
        {
 	        "recipient": "0421f258e4a366028e1500fe972555f269b61d261fa71e96f554412768fa497a42b6e77dcf67b240e9c3da426129c44b20ce6785787e4529856270b7d42d9ced56",
 	        "amount": "30"
         }
+```	
         
-        result ->   (I sent 2 times)
+        *result ->   (I sent 2 times)
+```	
         [
              {
                "id": "b40ce900-a1ce-11e8-b0ea-054e3fe31919",
@@ -106,6 +113,7 @@ Now,
                 ]
             }
         ]
+```	
         
   3.  GET - localhost:3001/transactions         (Fetches the transaction pool)
       result ->
