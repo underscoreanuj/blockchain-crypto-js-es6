@@ -116,8 +116,9 @@ Now,
         ]
 ```	
         
-  3.  GET - localhost:3001/transactions         (Fetches the transaction pool)
-      result ->
+  3.  GET - localhost:3001/transactions         
+  	(Fetches the transaction pool)
+      	*result ->
 ```      
       [
             {
@@ -150,8 +151,9 @@ Now,
         ]
 ```	
 
-  4.  GET - localhost:3001/mine-transactions         (Mines the transactions in the transaction pool; if verified adds them to the blockchain)  
-      result ->
+  4.  GET - localhost:3001/mine-transactions         
+  	(Mines the transactions in the transaction pool; if verified adds them to the blockchain)  
+      	*result ->
 ```      
       [
             {
