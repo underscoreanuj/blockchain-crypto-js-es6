@@ -231,5 +231,5 @@ Now,
 
 * Hat tip to anyone who's code was used
 * Inspiration
-* etc
+* Coffee
 * email me if any querries : anujsingh9710@gmail.com
