@@ -80,9 +80,10 @@ Now,
 	        "recipient": "0421f258e4a366028e1500fe972555f269b61d261fa71e96f554412768fa497a42b6e77dcf67b240e9c3da426129c44b20ce6785787e4529856270b7d42d9ced56",
 	        "amount": "30"
         }
-```	
+```
         
         *result ->   (I sent 2 times)
+	
 ```	
         [
              {
@@ -117,6 +118,7 @@ Now,
         
   3.  GET - localhost:3001/transactions         (Fetches the transaction pool)
       result ->
+```      
       [
             {
                 "id": "b40ce900-a1ce-11e8-b0ea-054e3fe31919",
@@ -146,9 +148,11 @@ Now,
                 ]
             }
         ]
+```	
 
-  4.  GET - localhost:3001/mine-transactions         (Mines the transactions in the transaction pool; if verified adds them to the blockchain)
+  4.  GET - localhost:3001/mine-transactions         (Mines the transactions in the transaction pool; if verified adds them to the blockchain)  
       result ->
+```      
       [
             {
                 "timestamp": "Genesis time",
@@ -214,6 +218,7 @@ Now,
                 "difficulty": 2
             }
         ]
+```	
         
 ## Built With
 
